@@ -8,20 +8,28 @@ namespace receptek
         {
             var ma = DateTime.Today;
             var naneve = ma.DayOfWeek;
+            napiRecept(naneve);
+
+            Console.ReadLine();
+        }
+
+        private static void napiRecept(DayOfWeek naneve)
+        {
             if (naneve == DayOfWeek.Friday)
             {
                 Console.WriteLine("szerva van");
             }
             else
             {
-                Console.WriteLine(ma);
-                Console.WriteLine("hus");
-                Console.WriteLine("hagyma");
-                Console.WriteLine("paprika");
+                perkeltKiiratas();
             }
-            
-            Console.ReadLine();
         }
-        
+
+        private static void perkeltKiiratas()
+        {
+            Console.WriteLine("hus");
+            Console.WriteLine("hagyma");
+            Console.WriteLine("paprika");
+        }
     }
 }
