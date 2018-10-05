@@ -18,11 +18,20 @@ namespace receptek
             if (naneve == DayOfWeek.Friday)
             {
                 Console.WriteLine("szerva van");
+                Console.WriteLine(DateTime.Today.GetHashCode());
+
             }
             else
             {
+                Console.WriteLine(DateTime.Today.GetHashCode());
                 perkeltKiiratas();
+                irdKiAPerkeltet();
             }
+        }
+
+        private static void irdKiAPerkeltet()
+        {
+            throw new NotImplementedException();
         }
 
         private static void perkeltKiiratas()
