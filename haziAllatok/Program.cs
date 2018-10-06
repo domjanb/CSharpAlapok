@@ -82,7 +82,7 @@ namespace haziAllatok
     class Kutya :HaziAllat
     {
 
-        public void Enekel()
+        public new void  Enekel()
         {
             Console.WriteLine("kutya enekel ");
         }

@@ -5,9 +5,13 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bevezetes", "Bevezetes\Bevezetes.csproj", "{594A531D-8600-44BA-B3F8-8E34D5BBCCE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "receptek", "receptek\receptek.csproj", "{AB70AA90-5C01-482D-AA1A-0A45122EE92F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "receptek", "receptek\receptek.csproj", "{AB70AA90-5C01-482D-AA1A-0A45122EE92F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haziAllatok", "haziAllatok\haziAllatok.csproj", "{8A04F376-A64C-4766-BBFC-52DCBAA5A6AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "haziAllatok", "haziAllatok\haziAllatok.csproj", "{8A04F376-A64C-4766-BBFC-52DCBAA5A6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "construktorok", "feluletSikidomok\construktorok.csproj", "{B2B8A9CD-F218-4370-BAD9-9F5639B48E85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikidomok", "Sikidomok\Sikidomok.csproj", "{0AA9C9D4-DB56-427F-913E-319F46B8C9AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{8A04F376-A64C-4766-BBFC-52DCBAA5A6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A04F376-A64C-4766-BBFC-52DCBAA5A6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A04F376-A64C-4766-BBFC-52DCBAA5A6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B8A9CD-F218-4370-BAD9-9F5639B48E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B8A9CD-F218-4370-BAD9-9F5639B48E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B8A9CD-F218-4370-BAD9-9F5639B48E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B8A9CD-F218-4370-BAD9-9F5639B48E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA9C9D4-DB56-427F-913E-319F46B8C9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA9C9D4-DB56-427F-913E-319F46B8C9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA9C9D4-DB56-427F-913E-319F46B8C9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA9C9D4-DB56-427F-913E-319F46B8C9AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
