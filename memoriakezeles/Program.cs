@@ -12,13 +12,45 @@ namespace memoriakezeles
     {
         static void Main(string[] args)
         {
-            while (!Console.KeyAvailable)
+            /*while (!Console.KeyAvailable)
             {
                 //var streem = new MemoryStream(100000);
                 //var bimap = new Bitmap(1280,1024);
                 using (var bimap = new Bitmap(1280, 1024)) { }
 
+            }*/
+            using (var t1 = new TisztaLevego())
+            {
             }
+
+            try
+            {
+
+            }
+            finally
+            {
+
+            }
+        }
+    }
+    class TisztaLevego : IDisposable
+    {
+        ~TisztaLevego()
+        {
+            Dispose(false);        
+        }
+
+        
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        private void Dispose(bool dispose)
+        {
+            throw new NotImplementedException();
         }
     }
 }
