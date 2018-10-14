@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "memoriakezeles", "memoriake
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INumerable", "INumerable\INumerable.csproj", "{8E1C3C83-7E62-4E95-AEB7-F8FEDE12F7B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamString", "StreamString\StreamString.csproj", "{3616C63E-7AFB-4801-8CF0-CC56735015B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializalas", "Serializalas\Serializalas.csproj", "{3ACDA5F5-72A1-4438-A9A7-5377AD72EDBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{8E1C3C83-7E62-4E95-AEB7-F8FEDE12F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E1C3C83-7E62-4E95-AEB7-F8FEDE12F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E1C3C83-7E62-4E95-AEB7-F8FEDE12F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3616C63E-7AFB-4801-8CF0-CC56735015B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3616C63E-7AFB-4801-8CF0-CC56735015B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3616C63E-7AFB-4801-8CF0-CC56735015B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3616C63E-7AFB-4801-8CF0-CC56735015B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACDA5F5-72A1-4438-A9A7-5377AD72EDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACDA5F5-72A1-4438-A9A7-5377AD72EDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACDA5F5-72A1-4438-A9A7-5377AD72EDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACDA5F5-72A1-4438-A9A7-5377AD72EDBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
